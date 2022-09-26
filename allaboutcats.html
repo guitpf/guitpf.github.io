@@ -38,7 +38,7 @@
             
             .top-3{
                 background-color: rgb(255, 229, 255);
-                width:  15%;
+                width:  40%;
 
             }
 
@@ -52,7 +52,8 @@
                 overflow-y: auto;
                 overflow-x: hidden; 
                 color:  ghostwhite;
-                margin:  15px;
+                margin:  auto;
+                padding:  20px;
             }
 
             #extra-title{
@@ -60,11 +61,25 @@
                 font-weight: bold;
                 font-style: italic;
             }
+            #container{
+                            width: 400px;
+                          margin: auto;
+                          border: 1px solid darkred;
+                          border-top:  10px solid indianred;
+                          padding:  15px;
+            }
+
+            #catimg{
+                margin: 20px;
+                border: 6px ridge mediumvioletred;
+            }
 
 
         </style>
     </head>
     <body>
+
+<div id="container">
 
     <h1 id="start-page">All about Cats</h1>
     
@@ -111,7 +126,7 @@
 
 <h4 id="how-cat-look">How does a cat look like?</h4>
 
-<img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png" alt="cute cat" width="250">
+<img id="catimg" src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/animals/cat.png" alt="cute cat" width="250">
 
 <table>
     <thead>
@@ -155,16 +170,16 @@
 </div>
 <br>
 
-<div class="extrainfo">
+        <div class="extrainfo">
 <h3 id="extra-title"> Extra info </h3>
 
 <p> All cats have evolved as predatory hunting mammals with particularly keen senses of hearing, sight and smell. Anatomical characteristics such as the rounded head and skeletal structure suggest that all the 37 recognised species within the Felidae family evolved from a common ancestor, probably living in Asia around 10-12 million years ago. There has been a rapid expansion and diversity of the Felidae family during the past 10 to 11 million years and by 3 million years ago there was a wide variety of cats populating all regions of the earth except the Arctic, Antarctic and Australia. The rise and fall of sea levels over many millennia helped both to create conditions where Felidae species could migrate and occupy other geographical locations (when sea levels were low) and isolate the development of species (when sea levels were high). The widespread migration of ancestral cats was probably made easier by their natural behaviour to disperse and seek their own territory, and also the need to follow the prey species they hunted on. </p>
 
-</div>
+
 
 <p><a href="#start-page"> Go back to the beginning </a></p>
   
-
-
+        </div>
+</div>
     </body>
 </html>
