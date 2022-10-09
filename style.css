@@ -1,0 +1,154 @@
+
+
+/* colors #BBD2C5 #536976 #292E49 */
+
+
+
+
+.container{
+                width: 85%;
+              margin: auto;
+              border-top:  10px solid #536976;
+              padding:  15px;
+}
+
+
+/* GENERAL IMAAGES */
+
+
+.img-frame{
+    border: 10px groove #536976;    
+}
+
+.img-small{
+    width: 30%;
+
+}
+
+.img-big{
+    width: 40%;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+/* FIRST PAGE */
+
+.menu{
+    padding: 15px;
+    background-color: #292E49;
+    color: #BBD2C5;
+    line-height: 20%;
+    margin-top: -20px;
+    
+}
+
+.website-name{
+    text-align: center;
+    color: #292E49;
+    background-color: #BBD2C5;
+}
+
+.header{
+    text-align: center;
+    width: 60%;
+    align-content: center;
+    line-height: 35px;
+    margin-left: 19%;
+}
+
+.about-gui{
+    border-style: dotted;
+    width: 30%;
+    padding-left: 15px;
+    margin-left:10%;
+    float: left;
+}
+.where-live{
+    border-style: dotted;
+    width: 30%;
+    padding-right: 15px;
+    margin-right:10%;
+    float: right;
+    position:sticky
+}
+
+
+table{
+    width: 100%;
+}
+
+td{
+    text-align: center;
+  
+}
+
+
+/* unvisited link */
+a:link {
+  color: #BBD2C5;
+}
+
+/* visited link */
+a:visited {
+  color: hotpink;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;;
+}
+
+
+/* TRAVEL */
+
+#top-3{
+    background-color: rgb(227, 193, 227);
+   
+}
+#killing-martians{
+     font-size:14px
+}
+
+#bad-martian{
+ float:right;
+ margin-left:3px;
+ margin-bottom: 3px;
+}
+
+.list{
+    background-color: rgb(194, 237, 205);
+     font-style: italic; 
+     font-size: 13px ;
+     font-weight: bold;
+     line-height: 1.7em;
+}
+
+#list{
+    background-color: rgb(240, 130, 157);
+}
+#greeting {
+     background: rgb(255, 255, 0);
+     border: 2px solid black;
+     font-family: "Comic Sans MS", fantasy;
+     padding: 5px;
+     width: 142px;
+     position: absolute;
+     top: 120%;
+     left: 150px;
+     z-index: 1;
+ }
+ 
+ #creature {
+     position: absolute;
+     top: 125%;
+     left: 50px;
